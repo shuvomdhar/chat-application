@@ -37,7 +37,7 @@ const ChatForum = ({ clerkUser, slug }) => {
         });
 
         setChannel(channel);
-    }, [client]);
+    }, [client, slug]);
 
 
     if (!client) return <div>Setting up client & connection...</div>;

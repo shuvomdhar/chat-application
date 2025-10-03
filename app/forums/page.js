@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link';
+import Image from 'next/image';
 
 const topics = [
     {
@@ -41,8 +42,15 @@ const Forums = () => {
             <h1 className='flex justify-center py-6 text-3xl text-black font-bold'>Discussion Forums</h1>
             <div className='max-w-4xl mx-auto'>
                 {topics.map((topic, index) => (
-                    <div key={index} className="flex items-center gap-4 p-4 bg-white rounded-lg shadow-md mb-4">
-                        <img src={topic.img} alt={topic.text} className="w-16 h-16 rounded-full" />
+                    <div key={index} className="flex items-center gap-4 p-4 mb-4 bg-white rounded-lg shadow">
+                        <Image
+                            src={topic.img}
+                            alt={topic.text}
+                            width={64}
+                            height={64}
+                            className="w-16 h-16 rounded-full"
+                            unoptimized
+                        />
                         <div>
                             <h2 className="text-xl font-semibold text-black">{topic.text}</h2>
                             <p className="text-gray-600">{topic.desc}</p>

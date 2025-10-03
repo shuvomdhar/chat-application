@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -25,11 +26,14 @@ export default function Home() {
         </div>
 
         {/* Hero Image */}
-        <div className="flex-1">
-          <img
+        <div>
+          <Image
             src="https://cdni.iconscout.com/illustration/premium/thumb/chatting-app-illustration-download-in-svg-png-gif-file-formats--messenger-logo-text-messages-social-media-communication-pack-illustrations-6443454.png?f=webp"
             alt="Chat App Hero"
+            width={400}
+            height={400}
             className="w-full max-w-md mx-auto"
+            priority
           />
         </div>
       </section>

@@ -14,7 +14,7 @@ export default function About() {
                     <h2 className="text-2xl font-semibold mb-4">🚀 Our Mission</h2>
                     <p className="text-gray-600">
                         We aim to create a seamless and secure messaging experience that empowers people to stay in touch anytime, anywhere.
-                        Whether you're chatting with friends, family, or colleagues — communication should feel effortless and reliable.
+                        Whether you&#39;re chatting with friends, family, or colleagues — communication should feel effortless and reliable.
                     </p>
                 </section>
 

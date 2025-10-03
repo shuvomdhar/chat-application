@@ -2,6 +2,8 @@
 
 A modern, real-time chat application that brings developers and tech enthusiasts together to discuss various programming topics and engage in general conversations.
 
+View Site: [Chat-app](https://chat-application-beta-azure.vercel.app/)
+
 ## 🚀 Features
 
 ### Authentication
